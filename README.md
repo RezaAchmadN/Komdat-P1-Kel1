@@ -22,48 +22,22 @@ Kami menggunakan VM untuk pemimplementasian instalasi Webapss Planka. Untuk meng
 11. Masukkan VDI yang anda punya pada start-up disk
 12. Lakukan setup Ubuntu dan VM akan bisa anda pakai
 
-# Instalasi
+#Instalasi
 Pertama-tama, install Docker dan Docker Compose terlebih dahulu
 ## Instalasi Docker
 ```
-Update package terlebih dahulu
-$ sudo apt update
+$ cd ~
+$ curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
+$ sudo bash nodesource_setup.sh
+$ sudo apt install nodejs
+```
+## Instalasi Docker Composer
 
-Instal beberapa paket prasyarat yang memungkinkan apt menggunakan paket melalui HTTPS:
-$ sudo apt install apt-transport-https ca-certificates curl software-properties-common
-
-Kemudian tambahkan kunci GPG untuk repositori Docker resmi ke sistem:
-$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-
-Tambahkan repositori Docker ke sumber APT::
-$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
-
-Selanjutnya, perbarui package database dengan package Docker dari repo yang baru ditambahkan:
-$ sudo apt update
+Download docker-compose.yml
 ```
-Setelah itu pastikan bahwa kita menginstall dari repo Docker, bukan dari repo Ubuntu
+$ curl -L https://raw.githubusercontent.com/plankanban/planka/master/docker-compose.yml -o docker-compose.yml
 ```
-apt-cache policy docker-ce
+Pull data composer dan mulai servis
 ```
-Setelah itu akan muncul output:
+$ sudo docker-compose up -d
 ```
-docker-ce:
-  Installed: (none)
-  Candidate: 5:19.03.9~3-0~ubuntu-focal
-  Version table:
-     5:19.03.9~3-0~ubuntu-focal 500
-        500 https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
-```
-Perhatikan bahwa **docker-ce** tidak diinstal, tetapi kandidat untuk penginstalan adalah dari repositori Docker untuk **Ubuntu 20.04 (focal)**
-Setelah itu install docker
-```
-$ sudo apt install docker-ce
-```
-Untuk mengecek apakah sudah terinstall
-```
-docker --version
-```
-
-
-
- 
