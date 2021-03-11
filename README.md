@@ -31,36 +31,35 @@ $ curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
 $ sudo bash nodesource_setup.sh
 $ sudo apt install nodejs
 ```
-## Instalasi Docker Composer
 
-Download docker-compose.yml
+## Instalasi Docker Composer
+>Pemasangan Docker Compose
+
+Cek dan unduh bahwa composer yang digunakan adalah versi ``1.27.4`` File yang diunduh akan disimpan pada directory ``/usr/local/bin/docker-compose``:
+```
+sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+Pasang izin yang benar sehingga perintah docker-compose dapat dieksekusi: 
+```
+sudo chmod +x /usr/local/bin/docker-compose
+```
+Untuk memverifikasi bahwa penginstalan berhasil, jalankan:
+```
+docker-compose --version
+```
+Dan akan muncul keluaran seperti berikut:
+```
+Output
+docker-compose version 1.27.4, build 40524192
+```
+###
+> Pembuatan yml docker compose
+
+Unduh docker-compose.yml:
 ```
 $ curl -L https://raw.githubusercontent.com/plankanban/planka/master/docker-compose.yml -o docker-compose.yml
 ```
-Pull data composer dan mulai servis
+Pull data composer dan mulai servis:
 ```
 $ sudo docker-compose up -d
-```
-
-
-## Deployment
-Clone repository dulu dari repo original
-```
-git clone https://github.com/plankanban/planka.git
-```
-Lalu pindah ke direktori planka
-```
-cd planka
-```
-Setelah itu kita install npm untuk node package management
-```
-npm install
-```
-Setelah itu bisa menggunakan database lokal atau menggunakan database yang sudah disediakan
-```
-docker-compose -f docker-compose-dev.yml up
-```
-Mulai server deployment:
-```
-npm start
 ```
