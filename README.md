@@ -63,3 +63,25 @@ Pull data composer dan mulai servis:
 ```
 $ sudo docker-compose up -d
 ```
+
+## Deployment
+Clone repository dulu dari repo original
+```
+git clone https://github.com/plankanban/planka.git
+```
+Lalu pindah ke direktori planka
+```
+cd planka
+```
+Setelah itu kita install npm untuk node package management
+```
+npm install
+```
+Setelah itu bisa menggunakan database lokal atau menggunakan database yang sudah disediakan
+```
+docker-compose -f docker-compose-dev.yml up
+```
+Mulai server deployment:
+```
+npm start
+```
