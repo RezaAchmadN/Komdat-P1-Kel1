@@ -42,6 +42,7 @@ Selanjutnya, perbarui package database dengan package Docker dari repo yang baru
 $ sudo apt update
 ```
 Setelah itu pastikan bahwa kita menginstall dari repo Docker, bukan dari repo Ubuntu
+```
 @@ -51,7 +55,14 @@ docker-ce:
         500 https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
 ```
