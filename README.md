@@ -22,5 +22,16 @@ Kami menggunakan VM untuk pemimplementasian instalasi Webapss Planka. Untuk meng
 11. Masukkan VDI yang anda punya pada start-up disk
 12. Lakukan setup Ubuntu dan VM akan bisa anda pakai
 
+#Instalasi
+Pertama-tama, install Docker dan Docker Compose terlebih dahulu
+## Instalasi Docker
+```
+$ cd ~
+$ curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
+$ sudo bash nodesource_setup.sh
+$ sudo apt install nodejs
+```
+
+
 
  
