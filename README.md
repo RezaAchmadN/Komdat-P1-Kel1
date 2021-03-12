@@ -48,7 +48,11 @@ $ sudo apt update
 
 Setelah itu pastikan bahwa kita menginstall dari repo Docker, bukan dari repo Ubuntu
 ```
-@@ -51,7 +55,14 @@ docker-ce:
+docker-ce:
+  Installed: (none)
+  Candidate: 5:19.03.9~3-0~ubuntu-focal
+  Version table:
+     5:19.03.9~3-0~ubuntu-focal 500
         500 https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
 ```
 Perhatikan bahwa **docker-ce** tidak diinstal, tetapi kandidat untuk penginstalan adalah dari repositori Docker untuk **Ubuntu 20.04 (focal)**
