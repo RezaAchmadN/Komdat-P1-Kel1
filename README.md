@@ -25,22 +25,27 @@ Kami menggunakan VM untuk pemimplementasian instalasi Webapss Planka. Untuk meng
 # Instalasi
 Pertama-tama, install Docker dan Docker Compose terlebih dahulu
 ## Instalasi Docker
-```
 Update package terlebih dahulu
-$ sudo apt update
-
-Instal beberapa paket prasyarat yang memungkinkan apt menggunakan paket melalui HTTPS:
-$ sudo apt install apt-transport-https ca-certificates curl software-properties-common
-
-Kemudian tambahkan kunci GPG untuk repositori Docker resmi ke sistem:
-$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-
-Tambahkan repositori Docker ke sumber APT:
-$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
-
-Selanjutnya, perbarui package database dengan package Docker dari repo yang baru ditambahkan:
+```
 $ sudo apt update
 ```
+Instal beberapa paket prasyarat yang memungkinkan apt menggunakan paket melalui HTTPS:
+```
+$ sudo apt install apt-transport-https ca-certificates curl software-properties-common
+```
+Kemudian tambahkan kunci GPG untuk repositori Docker resmi ke sistem:
+```
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
+Tambahkan repositori Docker ke sumber APT:
+```
+$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+```
+Selanjutnya, perbarui package database dengan package Docker dari repo yang baru ditambahkan:
+```
+$ sudo apt update
+```
+
 Setelah itu pastikan bahwa kita menginstall dari repo Docker, bukan dari repo Ubuntu
 ```
 @@ -51,7 +55,14 @@ docker-ce:
