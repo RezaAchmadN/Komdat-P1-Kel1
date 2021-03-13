@@ -2,6 +2,8 @@
 
 ## Laporan Proyek Akhir KOM312 Komunikasi Data dan Jaringan
 
+<img src="https://user-images.githubusercontent.com/48080398/111021533-a4388a00-83ff-11eb-9f1d-c54f6eb4ccc8.gif">
+
 ## Step Pembuatan
 - [Setup VM](#Setup-VM)
 - [Instalasi](#Instalasi)
