@@ -1,4 +1,5 @@
 # ![](webapp/public/favicon-32x32.png) Planka
+Planka adalah aplikasi Kanban seperti Trello yang dibuat dengan React dan Redux
 
 ## Laporan Proyek Akhir KOM312 Komunikasi Data dan Jaringan
 
@@ -127,3 +128,6 @@ Mulai server deployment:
 npm start
 ```
 ![Planka Dashboard](https://user-images.githubusercontent.com/48080398/111018565-2c149900-83ec-11eb-8822-dab7c158680e.png)
+
+## Lisensi
+Planka is [MIT licensed](https://github.com/plankanban/planka/blob/master/LICENSE).
