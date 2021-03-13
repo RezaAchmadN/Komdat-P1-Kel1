@@ -68,13 +68,13 @@ Untuk mengecek apakah sudah terinstall
 ```
 docker --version
 ```
-## Instalasi Docker Composer
+## Instalasi Docker Compose
 
 <img src="https://user-images.githubusercontent.com/48080398/111018728-21a6cf00-83ed-11eb-956b-d90fe0c7985e.png" width="200">
 
 >Pemasangan Docker Compose
 
-Cek dan unduh bahwa composer yang digunakan adalah versi ``1.27.4`` File yang diunduh akan disimpan pada directory ``/usr/local/bin/docker-compose``:
+Cek dan unduh bahwa docker-compose yang digunakan adalah versi ``1.27.4`` File yang diunduh akan disimpan pada directory ``/usr/local/bin/docker-compose``:
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
@@ -98,7 +98,7 @@ Unduh docker-compose.yml:
 ```
 $ curl -L https://raw.githubusercontent.com/plankanban/planka/master/docker-compose.yml -o docker-compose.yml
 ```
-Pull data composer dan mulai servis:
+Pull data docker-compose dan mulai servis:
 ```
 $ sudo docker-compose up -d
 ```
