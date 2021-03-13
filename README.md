@@ -25,6 +25,7 @@ Kami menggunakan VM untuk pemimplementasian instalasi Webapss Planka. Untuk meng
 # Instalasi
 Pertama-tama, install Docker dan Docker Compose terlebih dahulu
 ## Instalasi Docker
+![Docker](https://user-images.githubusercontent.com/48080398/111018502-b90b2280-83eb-11eb-972a-97e2ee8a5671.png)
 Update package terlebih dahulu
 ```
 $ sudo apt update
@@ -66,6 +67,7 @@ Untuk mengecek apakah sudah terinstall
 docker --version
 ```
 ## Instalasi Docker Composer
+![Docker Compose](https://user-images.githubusercontent.com/48080398/111018526-d93ae180-83eb-11eb-93d4-39c2affc6cc5.png)
 >Pemasangan Docker Compose
 
 Cek dan unduh bahwa composer yang digunakan adalah versi ``1.27.4`` File yang diunduh akan disimpan pada directory ``/usr/local/bin/docker-compose``:
@@ -118,3 +120,4 @@ Mulai server deployment:
 ```
 npm start
 ```
+![Planka Dashboard](https://user-images.githubusercontent.com/48080398/111018565-2c149900-83ec-11eb-8822-dab7c158680e.png)
