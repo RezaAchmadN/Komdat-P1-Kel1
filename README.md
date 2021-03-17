@@ -156,7 +156,7 @@ Kita dapat membuat card dan juga melengkapi card tersebut dengan detail yang dii
 
 > Contoh tampilan:
 
-<img src=./Documentation/file1.png> 
+<img src=Documentation/file1.jpg> 
 
 # Pembahasan
 Aplikasi ini sangat mirip dengan Trello, baik dari segi interface maupun penggunaan, karena seperti ide awalnya yaitu merupakan alternatif dari Trello itu sendiri. User dapat membuat board dengan card berisi task.
