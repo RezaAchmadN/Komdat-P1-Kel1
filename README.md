@@ -151,6 +151,13 @@ npm start
 
 ![Planka Dashboard](https://user-images.githubusercontent.com/48080398/111018565-2c149900-83ec-11eb-8822-dab7c158680e.png)
 
+# Pemakaian
+Kita dapat membuat card dan juga melengkapi card tersebut dengan detail yang diinginkan. Seperti mengisi deskripsi, task, komentar dan juga berbagai macam fitur lainnya.
+
+> Contoh tampilan:
+
+<img src=Documentation/file1.png> 
+
 # Pembahasan
 Aplikasi ini sangat mirip dengan Trello, baik dari segi interface maupun penggunaan, karena seperti ide awalnya yaitu merupakan alternatif dari Trello itu sendiri. User dapat membuat board dengan card berisi task.
 
