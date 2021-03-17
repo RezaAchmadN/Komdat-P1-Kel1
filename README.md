@@ -156,14 +156,14 @@ Kita dapat membuat card dan juga melengkapi card tersebut dengan detail yang dii
 
 > Contoh tampilan Planka:
 
-<img src=Documentation/file1.jpg> 
+<img src=Documentation/file1.jpg height=400> 
 
 # Pembahasan
 Aplikasi ini sangat mirip dengan Trello, baik dari segi interface maupun penggunaan, karena seperti ide awalnya yaitu merupakan alternatif dari Trello itu sendiri. User dapat membuat board dengan card berisi task.
 
 > Contoh tampilan Trello:
 
-<img src=Documentation/file2.jpg> 
+<img src=Documentation/file2.jpg height=400> 
 
 **Perbedaan dengan Trello**
  - Perbedaan dengan Trello yang paling mendasar mungkin ada pada apa yang bisa diinput pada card oleh planka. Pada Planka, hanya bisa menambah members, label, due date, timer  dan attachment. Sedangkan untuk  Trello, dapat menginput checklist dan menambah cover juga.
