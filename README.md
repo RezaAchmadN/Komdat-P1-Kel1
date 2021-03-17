@@ -25,6 +25,27 @@ Kami menggunakan VM untuk pemimplementasian instalasi Webapss Planka. Untuk meng
 11. Masukkan VDI yang anda punya pada start-up disk
 12. Lakukan setup Ubuntu dan VM akan bisa anda pakai
 
+## Set Shared SSH & Firewall
+Install openssh-server
+```
+sudo apt install openssh-serve
+```
+Lalu enable ssh nya dari sistem
+```
+sudo systemctl enable ssh
+```
+Jalankan shared ssh nya
+```
+sudo systemctl start ssh
+```
+aktifkan juga firewall nya untuk ssh
+```
+sudo ufw allow ssh
+```
+dan enable firewallnya
+```
+sudo ufw enable
+```
 # Instalasi
 Pertama-tama, install Docker dan Docker Compose terlebih dahulu
 ## Instalasi Docker
@@ -115,7 +136,7 @@ Lalu pindah ke direktori planka
 ```
 cd planka
 ```
-Setelah itu kita install npm untuk node package management
+Setelah itu kita install menggunakan npm
 ```
 npm install
 ```
@@ -128,28 +149,6 @@ Mulai server deployment:
 npm start
 ```
 ![Planka Dashboard](https://user-images.githubusercontent.com/48080398/111018565-2c149900-83ec-11eb-8822-dab7c158680e.png)
-
-## Set Shared SSH & Firewall
-Install openssh-server
-```
-sudo apt install openssh-serve
-```
-Lalu enable ssh nya dari sistem
-```
-sudo systemctl enable ssh
-```
-Jalankan shared ssh nya
-```
-sudo systemctl start ssh
-```
-aktifkan juga firewall nya untuk ssh
-```
-sudo ufw allow ssh
-```
-dan enable firewallnya
-```
-sudo ufw enable
-```
 
 
 ## Lisensi
