@@ -160,8 +160,5 @@ Aplikasi ini sangat mirip dengan Trello, baik dari segi interface maupun penggun
  - Tidak fitur Power Up
  - Tidak bisa membuat board menjadi Public atau Private
 
-![Planka Dashboard](https://user-images.githubusercontent.com/48080398/111018565-2c149900-83ec-11eb-8822-dab7c158680e.png)
-
-
 ## Lisensi
 Planka is [MIT licensed](https://github.com/plankanban/planka/blob/master/LICENSE).
