@@ -1,3 +1,35 @@
+# Anggota
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Nama</th>
+            <th>Nim</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Reza Achmad Naufal</td>
+            <td>G64180078</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ali Naufal Ammarullah</td>
+            <td>G64180080</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Muhammad Rayhanendra Adikoesoemo</td>
+            <td>G64180098</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Muhammad Fauzan Ramadhan</td>
+            <td>G64180117</td>
+        </tr>
+</tbody>
+</table>
 # ![](webapp/public/favicon-32x32.png) Planka
 Planka adalah aplikasi yang menyediakan Kanban Board seperti Trello yang dibuat dengan React dan Redux
 
