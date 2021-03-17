@@ -149,6 +149,8 @@ Mulai server deployment:
 npm start
 ```
 
+![Planka Dashboard](https://user-images.githubusercontent.com/48080398/111018565-2c149900-83ec-11eb-8822-dab7c158680e.png)
+
 # Pembahasan
 Aplikasi ini sangat mirip dengan Trello, baik dari segi interface maupun penggunaan, karena seperti ide awalnya yaitu merupakan alternatif dari Trello itu sendiri. User dapat membuat board dengan card berisi task.
 
@@ -156,6 +158,7 @@ Aplikasi ini sangat mirip dengan Trello, baik dari segi interface maupun penggun
  - Perbedaan dengan Trello yang paling mendasar mungkin ada pada apa yang bisa diinput pada card oleh planka. Pada Planka, hanya bisa menambah members, label, due date, timer  dan attachment. Sedangkan untuk  Trello, dapat menginput checklist dan menambah cover juga.
  - Untuk fitur Actions yang terdapat ketika menambah detail Card, Planka hanya bisa Subscribe, Move, dan Delete. Sedangkan untuk Trello, dia bisa melakukan Copy, Make Template, Watch, Archive, dan Share
  - Tidak fitur Power Up
+ - Tidak bisa membuat board menjadi Public atau Private
 
 ![Planka Dashboard](https://user-images.githubusercontent.com/48080398/111018565-2c149900-83ec-11eb-8822-dab7c158680e.png)
 
