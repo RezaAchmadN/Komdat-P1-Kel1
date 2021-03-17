@@ -171,5 +171,10 @@ Aplikasi ini sangat mirip dengan Trello, baik dari segi interface maupun penggun
  - Tidak fitur Power Up
  - Tidak bisa membuat board menjadi Public atau Private
 
+## Tech stack
+- React, Redux, Redux-Saga, Redux-ORM, Semantic UI React, react-beautiful-dnd
+- Sails.js, Knex.js
+- PostgreSQL
+
 ## Lisensi
 Planka is [MIT licensed](https://github.com/plankanban/planka/blob/master/LICENSE).
