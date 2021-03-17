@@ -129,5 +129,28 @@ npm start
 ```
 ![Planka Dashboard](https://user-images.githubusercontent.com/48080398/111018565-2c149900-83ec-11eb-8822-dab7c158680e.png)
 
+## Set Shared SSH & Firewall
+Install openssh-server
+```
+sudo apt install openssh-serve
+```
+Lalu enable ssh nya dari sistem
+```
+sudo systemctl enable ssh
+```
+Jalankan shared ssh nya
+```
+sudo systemctl start ssh
+```
+aktifkan juga firewall nya untuk ssh
+```
+sudo ufw allow ssh
+```
+dan enable firewallnya
+```
+sudo ufw enable
+```
+
+
 ## Lisensi
 Planka is [MIT licensed](https://github.com/plankanban/planka/blob/master/LICENSE).
