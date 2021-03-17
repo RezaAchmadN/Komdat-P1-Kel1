@@ -33,7 +33,7 @@
 </table>
 
 ---
-[Sekilas Tentang](#-Planka) | [Pre Instalasi](#-Pre-Instalasi) | [Instalasi](#-Instalasi) | [Cara Pemakaian](#-Pemakaian) | [Pembahasan](#-Pembahasan) | [Lisensi](#-Lisensi)
+[Sekilas Tentang](#-Planka) | [Pre Instalasi](#pre-instalasi) | [Instalasi](#instalasi) | [Cara Pemakaian](#pemakaian) | [Pembahasan](#pembahasan) | [Lisensi](#lisensi)
 :---:|:---:|:---:|:---:|:---:|:---:
 
 # ![](webapp/public/favicon-32x32.png) Planka
