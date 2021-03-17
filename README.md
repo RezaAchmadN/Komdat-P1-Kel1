@@ -32,16 +32,16 @@
 </tbody>
 </table>
 
+---
+[Sekilas Tentang](#-Planka) | [Pre Instalasi](#-Pre-Instalasi) | [Instalasi](#-Instalasi) | [Cara Pemakaian](#-Pemakaian) | [Pembahasan](-Pembahasan) | [Lisensi](#-Lisensi)
+:---:|:---:|:---:|:---:|:---:|:---:
 
 # ![](webapp/public/favicon-32x32.png) Planka
 Planka adalah aplikasi yang menyediakan Kanban Board seperti Trello yang dibuat dengan React dan Redux
+
 <img src="https://user-images.githubusercontent.com/48080398/111021533-a4388a00-83ff-11eb-9f1d-c54f6eb4ccc8.gif">
 
-## Step Pembuatan
-- [Setup VM](#Setup-VM)
-- [Instalasi](#Instalasi)
-- [Demo](#Demo)
-
+## Pre-Instalasi
 # Setup VM
 Kami menggunakan VM untuk pemimplementasian instalasi Webapss Planka. Untuk menggunakan VM pada Windows ada beberapa langkah yang harus dilakukan. 
 1. Download VM pada link berikut https://www.virtualbox.org/wiki/Downloads
